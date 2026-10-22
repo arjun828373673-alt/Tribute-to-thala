@@ -1,5 +1,40 @@
 .ipl_section {
     background-color: #FFCC00;
     padding: 10px;
-    
 }
+
+.Award_section {
+    background-color: #0b0f0a;
+    padding: 40px 0;
+    color: #fff;
+    overflow: hidden;
+    text-align: center;
+}
+
+.Award_section h2 {
+    font-family: monospace;
+    font-size: 2rem;
+    margin-bottom: 30px;
+    letter-spacing: 2px;
+}
+
+.marquee {
+    width: 100%;
+    overflow: hidden;
+    white-space: nowrap;
+    position: relative;
+}
+
+.marquee-track {
+    display: inline-flex;
+    gap: 25px;
+    animation: scrollSlides 25s linear infinite;
+}
+
+.marquee:hover .marquee-track {
+    animation-play-state: paused;
+}
+
+.track {
+    background: #141c14;
+ }
