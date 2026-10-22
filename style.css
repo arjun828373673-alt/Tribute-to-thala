@@ -37,4 +37,17 @@
 
 .track {
     background: #141c14;
+    border: 1px solid #2e4d2e;
+    border-radius: 12px;
+    padding: 20px;
+    width: 250px;
+    flex-shrink: 0;
+    text-align: center;
+    transition: transform 0.3s ease;
  }
+
+track:hover {
+    transform: translateY(-8px);
+    border-color: #4CAF50;
+}
+
