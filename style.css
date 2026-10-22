@@ -46,7 +46,7 @@
     transition: transform 0.3s ease;
  }
 
-track:hover {
+.track:hover {
     transform: translateY(-8px);
     border-color: #4CAF50;
 }
@@ -57,7 +57,7 @@ track:hover {
     margin-bottom: 15px;
 }
 
-track p {
+.track p {
     font-size: 0.85rem;
     color: #888;
 }
