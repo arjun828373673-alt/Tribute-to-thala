@@ -1,6 +1,22 @@
-.ipl_section {
-    background-color: #FFCC00;
-    padding: 10px;
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700;800&display=swap');
+
+:root {
+    --csk-yellow:#fdb913;
+    -csk-yellow-glow: rgba(253,185,19,0.4);
+    --csk-blue: #004ba0;
+    --csk-dark-blue: #0a1128;
+    --csk-navy: #101f42;
+    --bg-dark: #070b19;
+    --card-bg: rgba(16,31,66,0.7);
+    --text-main: #f0f4f8;
+    --text-muted: #a0aec0;
+    --accent-gold: #ffd700;
+}
+ {
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll
 }
 
 .Award_section {
