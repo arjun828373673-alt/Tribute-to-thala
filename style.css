@@ -12,13 +12,28 @@
     --text-muted: #a0aec0;
     --accent-gold: #ffd700;
 }
- {
+. {
     margin:0;
     padding: 0;
     box-sizing: border-box;
     scroll-behavior:smooth;
 }
 
+body{ 
+    font-family: 'poppins', sans-serif;
+    background-color: var(--text-main0);
+    color: var(--text-main);
+    line-height: 1.6;
+    overflow-x: hidden;
+}
+
+img {
+    max-width: 100% !important;
+    height: auto !important;
+    display: block;
+    object-fit: cover;
+    border-radius: 12px;
+}    
 .Award_section {
     background-color: #0b0f0a;
     padding: 40px 0;
@@ -85,12 +100,6 @@
     100% {
         transform: translateX(-50%);
     }
-}
-
-img {
-    max-width: 100%;
-    height: auto;
-    display: block;
 }
 
 nav {
