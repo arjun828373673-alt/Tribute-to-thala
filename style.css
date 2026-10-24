@@ -135,7 +135,7 @@ nav .logo{
 }
 
 nav .logo:hover {
-    transform: scale(1.1) rotate(5deg)
+    transform: scale(1.1) rotate(5deg);
 }
 
 nav ul {
