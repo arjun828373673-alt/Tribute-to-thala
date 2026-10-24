@@ -181,6 +181,15 @@ header p {
     margin-top: 10px;
 }
 
+.content {
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(280px,1fr));
+    gap: 20px;
+    padding: 40px 5%;
+    max-width: 1300px;
+    margin: 0 auto;
+}
+
 .card img {
     width: 100% !important;
     height: auto !important;
