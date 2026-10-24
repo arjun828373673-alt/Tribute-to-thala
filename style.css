@@ -162,6 +162,23 @@ nav ul li a:hover {
     box-shadow: 0 0 15px var(--csk-yellow-glow);
 }
 
+header h1 {
+    text-align: center;
+    font-size: 3rem;
+    font-weight: 800;
+    margin-top: 30px;
+    background: linear-gradient(45deg, #fff, var(--csk-yellow));
+    -webkit-background-clip:text;
+    -webkit-text-fill-color: transparent;
+    text-shadow: 0 0 30px rgba(253, 185, 19, 0.3);
+}
+
+header p {
+    text-align: center;
+    color:var(--text-muted);
+
+}
+
 .card img {
     width: 100% !important;
     height: auto !important;
