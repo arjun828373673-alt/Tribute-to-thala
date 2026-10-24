@@ -2,7 +2,7 @@
 
 :root {
     --csk-yellow:#fdb913;
-    -csk-yellow-glow: rgba(253,185,19,0.4);
+    --csk-yellow-glow: rgba(253,185,19,0.4);
     --csk-blue: #004ba0;
     --csk-dark-blue: #0a1128;
     --csk-navy: #101f42;
@@ -102,12 +102,40 @@ img {
     }
 }
 
+header{
+    background: linear-gradient(135deg, var(--csk-dark-blue),var(--bg-dark));
+    padding-bottom: 40px;
+    border-bottom: 3px solid var(--csk-yellow);
+} 
+
+
 nav {
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    background: rgba(10, 17, 40, 0.9);
+    backdrop-filter: blur(12px);
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
+    border-bottom: 1px solid rgba(253, 1185, 19, 0.2);
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.5);
     align-items: center;
-    padding: 10px;
+    padding: 15px 5%;
+}
+
+nav .logo{
+    width: 60px !important;
+    height: 60px;
+    object-fit: cover;
+    border-radius: 50px !important;
+    border: 2px solid var(--csk-yellow);
+    box-shadow: 0 0 10px var(--csk-yellow-glow);
+    transition: transform 0.3s ease;
+}
+
+nav .logo:hover {
+    transform: scale(1.1) rotate(5deg)
 }
 
 nav ul {
