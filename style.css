@@ -128,7 +128,7 @@ nav .logo{
     width: 60px !important;
     height: 60px;
     object-fit: cover;
-    border-radius: 55px !important;
+    border-radius: 70px !important;
     border: 2px solid var(--csk-yellow);
     box-shadow: 0 0 10px var(--csk-yellow-glow);
     transition: transform 0.3s ease;
