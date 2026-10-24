@@ -205,6 +205,12 @@ header p {
     box-shadow: 0 10px 20px rgba(0, 0, 0, 0.4);
 }
 
+section {
+    padding: var(--csk-yellow-glow);
+    max-width: 1300;
+    margin: 0autof;
+}
+
 .card img {
     width: 100% !important;
     height: auto !important;
