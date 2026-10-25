@@ -13,10 +13,9 @@
     --accent-gold: #ffd700;
 }
 
-
 body{ 
     font-family: 'poppins', sans-serif;
-    background-color: var(--text-main0);
+    background-color: var(--text-main);
     color: var(--text-main);
     line-height: 1.6;
     overflow-x: hidden;
@@ -113,7 +112,7 @@ nav {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    border-bottom: 1px solid rgba(253, 1185, 19, 0.2);
+    border-bottom: 1px solid rgba(253, 185, 19, 0.2);
     box-shadow: 0 4px 20px rgba(0, 0, 0, 0.5);
     align-items: center;
     padding: 15px 5%;
@@ -201,7 +200,7 @@ header p {
 }
 
 section {
-    padding: var(--csk-yellow-glow);
+    padding: 60px 5%;
     max-width: 1300;
     margin: 0 auto;
 }
