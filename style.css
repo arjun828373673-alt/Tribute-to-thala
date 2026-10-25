@@ -221,7 +221,16 @@ section h2 {
     display: inline-block;
 }
 
-
+section h2::after {
+    content: '';
+    position: absolute;
+    bottom: -8px;
+    left: 0;
+    width: 60%;
+    height: 4px;
+    background: var(--csk-blue);
+    border-radius: 2px;
+}
 
 .card img {
     width: 100% !important;
