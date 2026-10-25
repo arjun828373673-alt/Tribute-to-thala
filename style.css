@@ -295,3 +295,16 @@ h3 {
     color: var(--csk-yellow);
 }
 
+.ipl_section {
+    background: linear-gradient(180deg, var(--bg-dark), var(--csk-navy));
+    border-radius: 20px;
+    margin-top: 30px;
+}
+
+.ipl-image {
+    width: 100% !important;
+    max-height: 500px;
+    object-fit: cover;
+    margin-bottom: 25px;
+    border: 2px solid var(--csk-yellow);
+}
