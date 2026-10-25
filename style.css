@@ -208,8 +208,20 @@ header p {
 section {
     padding: var(--csk-yellow-glow);
     max-width: 1300;
-    margin: 0autof;
+    margin: 0 auto;
 }
+
+section h2 {
+    font-size: 2.5rem;
+    font-weight: 800;
+    text-transform: uppercase;
+    color: var(--csk-yellow);
+    margin-bottom: 25px;
+    position:relative;
+    display: inline-block;
+}
+
+
 
 .card img {
     width: 100% !important;
