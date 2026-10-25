@@ -275,5 +275,7 @@ h3 {
 }
 
 .card p {
-    
+    font-weight: 600;
+    color: var(--accent-gold);
+    font-size: 1.1rem;
 }
