@@ -279,3 +279,19 @@ h3 {
     color: var(--accent-gold);
     font-size: 1.1rem;
 }
+
+.card ul {
+    list-style: none;
+    padding: 0;
+}
+
+.card ul li {
+    padding: 8px 0;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+    color: var(--text-main);
+}
+
+.card ul li b{
+    color: var(--csk-yellow);
+}
+
