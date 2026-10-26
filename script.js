@@ -42,3 +42,4 @@ const observer = new IntersectionObserver((entries, observer) => {
         }
  });
 }, observerOptions);
+
