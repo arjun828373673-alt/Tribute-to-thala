@@ -43,3 +43,10 @@ const observer = new IntersectionObserver((entries, observer) => {
  });
 }, observerOptions);
 
+document.querySelectorAll('.card, section').forEach(el => {
+   el.style.opacity = 'o';
+   el.style.transform = 'translateY(30px)';
+   el.style.transition = 'opacity 0.6s ease-out, transform 0.6s ease-out';
+   observer.observe(el);
+});
+
