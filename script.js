@@ -50,3 +50,9 @@ document.querySelectorAll('.card, section').forEach(el => {
    observer.observe(el);
 });
 
+const logo = document.querySelector('nav .logo');
+if (logo) {
+    logo.addEventListener('click', () => {
+        alert("7 💛 Seven is not just a number, it's an emotion! Whistle Podu!");
+    });
+}
