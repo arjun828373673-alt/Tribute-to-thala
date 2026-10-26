@@ -29,6 +29,16 @@ window.addEventListener('DOMContentLoaded', () => {
 
 });
 
-const observerOption = {
+const observerOptions = {
     thershold: 0.1
 };
+
+const observer = new IntersectionObserver((entries, observer) => {
+    entries.forEach(entry => {
+        if (entry.isIntersecting) {
+            entry.target.computedStyleMap.opacity = '1';
+            entry.target.computedStyleMap.transform = 'TranslateY(0)';
+            observer.unobserve(entry.target);
+        }
+ });
+}, observerOptions);
