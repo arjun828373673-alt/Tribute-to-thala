@@ -28,3 +28,7 @@ window.addEventListener('DOMContentLoaded', () => {
     headerTitle.textContent = greeting;
 
 });
+
+const observerOption = {
+    thershold: 0.1
+};
